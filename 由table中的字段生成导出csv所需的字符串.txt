@@ -1,0 +1,14 @@
+﻿str = 'aaa  bbb  ccc'
+strs = str.split('  ')
+# print(strs)
+content = '\', \''.join(strs)
+
+ret = '\'' + content + '\''
+print(ret)
+
+content = '`, b.`'.join(strs)
+ret = 'b.`' + content + '`'
+print(ret)
+
+# 'aaa', 'bbb', 'ccc'
+# b.`aaa`, b.`bbb`, b.`ccc`
